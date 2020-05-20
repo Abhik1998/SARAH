@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Sarah</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="talk_sasah">Talk to sarah</string>
+    <string name="places">Your Places</string>
+    <string name="Your_Name">Your_name</string>
+    <string name="current_location">current_location</string>
+    <string name="location">location</string>
+    <string name="reminders">Reminders</string>
+    <string name="login_logout">login/logout</string>
+    <string name="date_time">date-time</string>
+    <string name="place_in">Place On Enter</string>
+    <string name="place_out">Place On Exit</string>
+    <string name="sample_place_in">Rajendra bhawan</string>
+    <string name="sample_place_out">LHC</string>
+    <string name="date">date</string>
+    <string name="time">time</string>
+    <!--<string name="sample_place_out">LHC</string>-->
+    <!--<string name="sample_place_out">LHC</string>-->
+    <string name="what_s_on_your_mind">What\'s on your mind?</string>
+    <string name="fragment1">You have <b>logged in</b> with your account!!<p>You now have your own <b>AnnonymousID</b>.</p>  <b>Enjoy annonymous tweeting</b></string>
+    <string name="fragment2"><b>Click</b> on a tweet to <b>comment</b> back!!</string>
+    <string name="fragment3">you can also send <b>Image Tweets</b> through the image button directly!! <p>Comments are also featured with image tweets!! </p>   <b>GOOD LUCK!!</b></string>
+    <string name="fragment4">Swipe features!!!!  Swipe from Right to Left or opposite to make your app bubble!! Click on the bubble and then on expand button to restore your app!!</string>
+
+</resources>
