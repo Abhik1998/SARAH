@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_eighth">2dp</dimen>
+    <dimen name="activity_margin_quarter">4dp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="activity_margin_double">32dp</dimen>
+    <dimen name="activity_margin_triple">48dp</dimen>
+    <dimen name="activity_margin_quadruple">64dp</dimen>
+
+    <dimen name="text_size_heading_1">50sp</dimen>
+    <dimen name="text_size_heading_2">28sp</dimen>
+    <dimen name="text_size_heading_3">22sp</dimen>
+    <dimen name="text_size_heading_4">18sp</dimen>
+    <dimen name="text_size_heading_5">15sp</dimen>
+    <dimen name="text_size_heading_6">12sp</dimen>
+</resources>

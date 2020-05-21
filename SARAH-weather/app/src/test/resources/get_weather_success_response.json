@@ -1,0 +1,23 @@
+{
+  "message": "accurate",
+  "cod": "200",
+  "list": [
+    {
+      "name": "Tempe",
+      "main": {
+        "temp": 288.81,
+        "temp_min": 288.15,
+        "temp_max": 290.15
+      },
+      "sys": {
+      },
+      "weather": [
+        {
+          "main": "Clouds",
+          "description": "scattered clouds",
+          "icon": "03n"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_weather_coordinator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ViewSwitcher
+        android:id="@+id/activity_weather_view_switcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:background="@android:color/black">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ProgressBar
+                android:id="@+id/activity_weather_progress_bar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="@dimen/activity_margin_double"
+                android:indeterminate="true"
+                android:indeterminateDrawable="@drawable/indeterminate_progress" />
+
+            <TextView
+                android:id="@+id/activity_weather_text_view_response_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin_double"
+                android:text="@string/activity_weather_receiving_weather_copy"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:textSize="@dimen/text_size_heading_3"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/activity_margin"
+            android:layout_marginLeft="@dimen/activity_margin"
+            android:layout_marginRight="@dimen/activity_margin"
+            android:layout_marginTop="@dimen/activity_margin"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/activity_weather_text_view_forecast_heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/activity_margin_triple"
+                android:text="@string/activity_weather_weather_forecast_copy"
+                android:textColor="@android:color/primary_text_dark"
+                android:textSize="@dimen/text_size_heading_3"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/activity_weather_layout_forecast_container"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginTop="@dimen/activity_margin"
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_in_city_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_temp_feels_like_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_in_city_title_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        android:textStyle="bold"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_description_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_description_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_description_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_temp_feels_like"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_temp_feels_like_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_temp_feels_like_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_temp_feels_like_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_temp_min"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_temp_min_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_temp_min_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_temp_min_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_temp_max"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_temp_max_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_temp_max_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_temp_max_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_sunrise"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_sunrise_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_sunrise_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_sunrise_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/activity_weather_layout_sunset"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_sunset_title"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentStart="true"
+                        android:text="@string/activity_weather_weather_sunset_copy" />
+
+                    <TextView
+                        android:id="@+id/activity_weather_text_view_sunset_value"
+                        style="@style/WeatherInfoTextViewStyle"
+                        android:layout_alignParentEnd="true"
+                        android:textSize="@dimen/text_size_heading_4"
+                        tools:text="lorem ipsum" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ViewSwitcher>
+</android.support.design.widget.CoordinatorLayout>

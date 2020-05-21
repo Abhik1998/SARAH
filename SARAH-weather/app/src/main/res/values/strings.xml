@@ -1,0 +1,31 @@
+<resources>
+    <!-- App -->
+    <string name="app_name">Simple Weather App</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="app_date_format">yyyy-MM-dd HH:mm:ss z</string>
+
+    <!-- Weather Activity -->
+    <string name="activity_weather_receiving_weather_copy">Loading weather at your place…</string>
+    <string name="activity_weather_failure_response_copy">Failed to get response. Check your network
+        and locations settings that they are on and then restart the app after clearing it from recents</string>
+    <string name="activity_weather_app_launch_instruction_toast">Please make sure location is turned
+        on. Relaunch the app after turning on location</string>
+    <string name="activity_weather_weather_fallback_snackbar_copy">Permission not granted. Fallback to Tempe, AZ weather</string>
+    <string name="activity_weather_location_permission_rationale_copy">Need location for fetching weather info</string>
+    <string name="activity_weather_permission_rationale_action_button_copy">OK</string>
+    <string name="activity_weather_fallback_cityname">Tempe</string>
+    <string name="activity_weather_textview_weather_main">Weather Main:</string>
+    <string name="weather_open_weather_map_appid">721cb50cc767c368b9839f30e803df39</string>
+    <string name="activity_weather_weather_description_copy">Weather Description:</string>
+    <string name="activity_weather_weather_temp_feels_like_copy">Temp (feels like):</string>
+    <string name="activity_weather_weather_temp_min_copy">Temp (min):</string>
+    <string name="activity_weather_weather_temp_max_copy">Temp (max):</string>
+    <string name="activity_weather_weather_sunrise_copy">Sunrise:</string>
+    <string name="activity_weather_weather_sunset_copy">Sunset:</string>
+    <string name="activity_weather_weather_forecast_copy">Weather Forecast</string>
+    <string name="activity_weather_weather_fetch_failure_toast_copy">Failed to retrieve weather information</string>
+
+    <!-- OpenWeatherMap api -->
+    <string name="api_base_url">http://api.openweathermap.org</string>
+
+</resources>
