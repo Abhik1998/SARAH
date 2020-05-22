@@ -21,9 +21,6 @@ In this code pattern, we will develop an android mobile application on `IBM Mobi
 4. Product details are displayed on the mobile application.
 5. Users can now view how the furniture would look in their space.
 
-## Demo
-[Video](https://youtu.be/2qtWBiS-SD0)
-
 ## Pre-requisites
 
 * [IBM Cloud account](https://www.ibm.com/cloud/) : Create an IBM Cloud account.
