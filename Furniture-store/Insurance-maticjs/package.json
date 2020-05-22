@@ -1,0 +1,27 @@
+{
+  "name": "buy-policy",
+  "version": "1.0.0",
+  "description": "Buy RE-Sure policy",
+  "main": "truffle-config.js",
+  "engines": {
+    "node": "11.9.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "dev": "lite-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "akshay",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.5.3"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "maticjs": "^1.0.0-beta.16",
+    "truffle-hdwallet-provider": "^1.0.14",
+    "web3": "^1.2.1"
+  }
+}

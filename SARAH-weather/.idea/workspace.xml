@@ -11,19 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="23e6a188-7d0d-4cb9-9620-8bbd42a0504b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/abhik/weatherapp/ApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/activity/WeatherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/activity/WeatherActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherForecastNetworkFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherForecastNetworkFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherNetworkFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherNetworkFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/HttpUrlConnectionNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/HttpUrlConnectionNetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/util/BackgroundHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/util/BackgroundHelper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

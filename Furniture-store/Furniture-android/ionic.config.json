@@ -1,0 +1,7 @@
+{
+  "name": "augmented-reality-powered-interior-decorator",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "custom"
+}

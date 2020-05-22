@@ -1,0 +1,7 @@
+/*Ours is an android application integrated with ehtereum based insurance solutions provided to furniture buyers. We have used AR to allow users shift furniture goods or place them according to ther needs and thus design their home sweet home.
+
+Our prototype currently redirects to web browser to handle insurance related tasks using metamask. To run this we need to follow just few commands:-*/
+
+npm run dev
+
+/*Thats it. You can browse through our policies and for the android application you can just run the apk file.*/
