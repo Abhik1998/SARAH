@@ -1,4 +1,4 @@
-# Simple Weather App [![Build status](https://build.appcenter.ms/v0.1/apps/1ed1ef63-6202-4132-9124-232c3ddff5d9/branches/master/badge)](https://appcenter.ms)
+# SARAH Simple Weather App [![Build status](https://build.appcenter.ms/v0.1/apps/1ed1ef63-6202-4132-9124-232c3ddff5d9/branches/master/badge)](https://appcenter.ms)
 This is a simple weather app which gives used the current weather at his/her location provided
 the location service is turned on. The app takes care of permissions and if location permission is
  denied it loads weather at my current Location Tempe, AZ!
