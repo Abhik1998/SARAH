@@ -1,4 +1,4 @@
-package com.ibm.furniturestore;
+package com.abhik.furniturestore;
 
 import android.content.Intent;
 import android.graphics.Color;

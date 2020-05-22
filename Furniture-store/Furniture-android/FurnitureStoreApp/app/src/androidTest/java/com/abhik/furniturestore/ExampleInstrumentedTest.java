@@ -1,4 +1,4 @@
-package com.ibm.furniturestore;
+package com.abhik.furniturestore;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.ibm.furniturestore", appContext.getPackageName());
+        assertEquals("com.abhik.furniturestore", appContext.getPackageName());
     }
 }

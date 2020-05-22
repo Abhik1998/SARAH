@@ -1,4 +1,4 @@
-package com.ibm.furniturestore;
+package com.abhik.furniturestore;
 
 import android.content.Context;
 import android.support.annotation.NonNull;

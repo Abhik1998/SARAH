@@ -1,4 +1,4 @@
-package com.ibm.furniturestore;
+package com.abhik.furniturestore;
 
 import org.junit.Test;
 

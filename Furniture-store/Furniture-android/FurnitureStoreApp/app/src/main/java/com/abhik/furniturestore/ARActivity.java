@@ -1,4 +1,4 @@
-package com.ibm.furniturestore;
+package com.abhik.furniturestore;
 
 import android.net.Uri;
 import android.support.v7.app.AlertDialog;

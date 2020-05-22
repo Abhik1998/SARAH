@@ -4,7 +4,7 @@ apply plugin: 'com.google.ar.sceneform.plugin'
 android {
     compileSdkVersion 28
     defaultConfig {
-        applicationId "com.ibm.furniturestore"
+        applicationId "com.abhik.furniturestore"
         minSdkVersion 24
         targetSdkVersion 24
         versionCode 1
