@@ -2,7 +2,7 @@ package com.abhik.weatherapp.network;
 
 import android.content.res.Resources;
 
-import com.anurag.weatherapp.R;
+import com.abhik.weatherapp.R;
 import com.abhik.weatherapp.util.Logger;
 
 import java.io.BufferedReader;

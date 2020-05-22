@@ -29,7 +29,7 @@ import com.abhik.weatherapp.fetcher.WeatherForecastFetcher;
 import com.abhik.weatherapp.model.weather.WeatherResponse;
 import com.abhik.weatherapp.module.ApplicationModule;
 import com.abhik.weatherapp.module.FetcherModule;
-import com.anurag.weatherapp.R;
+import com.abhik.weatherapp.R;
 import com.abhik.weatherapp.event.GetWeatherFailureResponseEvent;
 import com.abhik.weatherapp.event.GetWeatherSuccessResponseEvent;
 import com.abhik.weatherapp.util.BackgroundHelper;

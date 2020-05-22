@@ -5,51 +5,25 @@
       <config />
     </shared>
   </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="23e6a188-7d0d-4cb9-9620-8bbd42a0504b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/anurag/weatherapp/ApplicationTest.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/androidTest/java/com/abhik/weatherapp/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/Application.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/activity/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/activity/BaseActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/activity/WeatherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/activity/WeatherActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/event/GetWeatherFailureResponseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/event/GetWeatherFailureResponseEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/event/GetWeatherSuccessResponseEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/event/GetWeatherSuccessResponseEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/event/WeatherForecastFailureResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/event/WeatherForecastFailureResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/event/WeatherForecastSuccessEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/event/WeatherForecastSuccessEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/fetcher/Callback.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/Callback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/fetcher/WeatherFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/fetcher/WeatherForecastFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherForecastFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/fetcher/WeatherForecastNetworkFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherForecastNetworkFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/fetcher/WeatherNetworkFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherNetworkFetcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/City.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/City.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/Clouds.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/Clouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/Coordinate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/Coordinate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/Rain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/Rain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/Snow.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/Snow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/Temp.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/Temp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherConditions.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherConditions.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherForecastParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherForecastParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherForecastResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherForecastResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/WeatherSys.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/WeatherSys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/model/weather/Wind.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/model/weather/Wind.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/module/ApplicationModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/module/ApplicationModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/module/FetcherModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/module/FetcherModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/module/NetworkManagerModule.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/module/NetworkManagerModule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/network/HttpUrlConnectionNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/HttpUrlConnectionNetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/network/NetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/NetworkManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/network/OpenWeatherMapJsonResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/OpenWeatherMapJsonResponseParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/network/OpenWeatherMapResponseParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/OpenWeatherMapResponseParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/util/BackgroundHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/util/BackgroundHelper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/anurag/weatherapp/util/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/util/Logger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/anurag/weatherapp/Activity/WeatherActivityTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Activity/WeatherActivityTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/anurag/weatherapp/Fetcher/GetWeatherNetworkFetcherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Fetcher/GetWeatherNetworkFetcherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/anurag/weatherapp/Network/HttpUrlConnectionNetworkManagerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Network/HttpUrlConnectionNetworkManagerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/anurag/weatherapp/Network/OpenWeatherMapJsonParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Network/OpenWeatherMapJsonParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/anurag/weatherapp/Util/TestResourceReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/com/abhik/weatherapp/Util/TestResourceReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/activity/WeatherActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/activity/WeatherActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherForecastNetworkFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherForecastNetworkFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherNetworkFetcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/fetcher/WeatherNetworkFetcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/HttpUrlConnectionNetworkManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/network/HttpUrlConnectionNetworkManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/util/BackgroundHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/abhik/weatherapp/util/BackgroundHelper.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -57,6 +31,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="RZ8M51L7MJF" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -69,10 +44,18 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="ProjectId" id="1cDTWAzdcWzhIbLDwyAOWYN0lOs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="RZ8M51L7MJF" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-05-21T12:10:11.647Z" />

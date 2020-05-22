@@ -1,6 +1,7 @@
 package com.abhik.weatherapp.util;
 
 import android.util.Log;
+import com.abhik.weatherapp.R;
 
 import com.abhik.weatherapp.module.ApplicationModule;
 

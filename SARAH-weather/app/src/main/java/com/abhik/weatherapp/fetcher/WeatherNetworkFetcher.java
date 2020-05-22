@@ -5,7 +5,7 @@ import android.content.res.Resources;
 import android.support.v4.content.LocalBroadcastManager;
 
 import com.abhik.weatherapp.model.weather.WeatherResponse;
-import com.anurag.weatherapp.R;
+import com.abhik.weatherapp.R;
 import com.abhik.weatherapp.event.GetWeatherFailureResponseEvent;
 import com.abhik.weatherapp.event.GetWeatherSuccessResponseEvent;
 import com.abhik.weatherapp.network.NetworkManager;
