@@ -9,7 +9,7 @@ In this code pattern, we will develop an android mobile application on `IBM Mobi
 <!--add an image in this path-->
 ![](/doc/source/images/Architecture.png)
 
-####Demo
+#### Demo
 <img src="doc/source/images/Screenshots/furniture.gif" alt="androidstudio" width="300" />
 
 <!--Optionally, add flow steps based on the architecture diagram-->
