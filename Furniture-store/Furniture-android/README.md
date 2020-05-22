@@ -1,4 +1,4 @@
-# Build a 'try and buy' application with AR capabilities for a furniture store
+# An Application with AR capabilities for a furniture store
 
 Augmented Reality suits the furniture/interior business perfectly. It is also a fine tool for personalization of customer needs, especially when it comes to furniture/interior. Shoppers really want the ability to see how the items will look at their homes or offices. People want to see virtual interior design ideas in real time, and AR provides them with such ability.
 
@@ -19,7 +19,7 @@ In this code pattern, we will develop an android mobile application on `IBM Mobi
 5. Users can now view how the furniture would look in their space.
 
 ## Demo
-[![](https://img.youtube.com/vi/2qtWBiS-SD0/0.jpg)](https://youtu.be/2qtWBiS-SD0)
+[Video](https://youtu.be/2qtWBiS-SD0)
 
 ## Pre-requisites
 
@@ -39,13 +39,6 @@ Please follow the below to setup and run this code pattern.
 5. [Run the Android App](#5-run-the-android-app)
 
 ### 1. Clone the repo
-
-Clone this [git repo](https://github.com/IBM/augmented-reality-powered-interior-decorator).
-Else, in a terminal, run:
-
-```
-$ git clone https://github.com/IBM/augmented-reality-powered-interior-decorator.git
-```
 
 ### 2. Create Cloudant database and populate it with sample data
 
@@ -228,52 +221,11 @@ Successfully deployed adapter
 $ mfpdev adapter deploy MyServer
 ```
 ##### 3.3.2 Launch MFP dashboard and update adapter configurations
-Launch MFP Dashboard as below:
-  * In the [IBM Cloud dashboard](https://cloud.ibm.com/dashboard/), under `Cloud Foundry Services`, click on the `Mobile Foundation` service you created in [Step 3.2]. The service overview page that gets shown, will have the MFP dashboard embedded within it. You can also open the MFP dashboard in a separate browser tab by appending `/mfpconsole` to the *url* `https://mobilefoundation-xxxx-xxxxx.xx-xx.mybluemix.net`.
->Example: `https://mobilefoundation-xxxx-xxxxx.xx-xx.mybluemix.net/mfpconsole`
-
-> NOTE: `username` & `password` can be found in `Service credentials` in step 3.2.
-  * Inside the MFP dashboard, in the list on the left, you will see the `CloudantJava` adapter listed.
-
-Update MFP Adapter configuration as below:
-  * Inside the MFP dashboard, click on the `CloudantJava` adapter. Under `Configurations` tab, you should see the various properties for accessing Cloudant DB as shown below.
-
-     <img src="doc/source/images/MobileFoundationAdapterDashboard.png" alt="Option to specify the configuration properties for accessing Cloud Object Storage and APIs in deployed MFP Adapter" width="800" border="10" />
-
-  * All these properties can be found in step 2.2.
-
-  * Save the changes by clicking `Save`.
-
-  * Click on `Resources` tab. You should see the various REST APIs exposed by `CloudantJava` adapter as shown below.
-
-     <img src="doc/source/images/MobileFoundationAdapterApis.png" alt="The REST APIs of CloudantJava adapter" width="800" border="10" />
 
 ##### 3.3.3 Test the CloudantJava adapter
-To Test the adapter use any REST Clients like [Postman](https://www.getpostman.com/downloads/).
-After Installing postman type the `url` created in [step 3.2] and append it with `/mfp/api/adapters/CloudantJava/`.
-
->Example: `https://mobilefoundation-xxxx-xxxxxx.xx-xx.mybluemix.net/mfp/api/adapters/CloudantJava/`.
-
- * Now click on `Send` button to run the GET `/mfp/api/adapters/CloudantJava/` API. The API response should get shown in the `Response Body` as shown in snapshot below.
-
- * The GET API on `/mfp/api/adapters/CloudantJava/` should return a JSON object containing `_id`, `_rev`, `id`, `title`, `shortdesc`, `rating`, `price` & `img` from your Cloudant as shown below.
-
-    <img src="doc/source/images/TestMFPAdapter.png" alt="Test the newly added API in MFP Adapter for getting Cloud Object Storage Authorization token" width="800" border="10" />
-
-  At this point you have successfully configured the Cloudant and Mobile Foundation.
 
 ### 4. Setup Poly Objects in Android Studio
 #### 4.1 Google Sceneform Tools Setup
-* Open the directory `FurnitureStoreApp` in Android Studio.
-
-* In Android Studio goto `File > Preferences > Plugins` and click on `Browse Repositories` button.
-
-* Search for the keyword `sceneform` and install it as shown.
-
-<img src="doc/source/images/sceneformsetup.png" alt="sceneform" width="800" />
-
-
-* Click on `Build > Make Project` to build the android project.
 
 >NOTE: The Initial Gradle Build may take much longer time please be patient.
 
@@ -408,20 +360,6 @@ Registered app for platform: android
 <img src="doc/source/images/Screenshots/furniture.gif" alt="androidstudio" width="300" />
 
 * Finally you can click on `Open Augmented Playground` to launch the AR screen on which you can choose the product and click on the anchors to place the object.
-
->>For a similar retail pattern, check out [Integrate a virtual mirror for e-commerce products](https://developer.ibm.com/patterns/integrate-a-virtual-mirror-with-e-commerce-products/).
-
->> To explore more on Argument Reality, refer to our argument reality related patterns at https://developer.ibm.com/patterns/category/virtual-reality/.
-
-# Troubleshooting
-
-Please see [troubleshooting guide](TROUBLESHOOTING.md) for solutions to some commonly occuring problems.
-
-* Click on the `Logcat` button at the bottom of the screen in Android Studio to see the console log outputs by the application as shown.
-
-<img src="doc/source/images/troubleshooting.png" alt="androidstudio" width="800" />
-
-* You can see the console logs here for every action that the app performs.
 
 ## License
 
